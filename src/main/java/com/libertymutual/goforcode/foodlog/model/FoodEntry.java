@@ -16,7 +16,7 @@ public class FoodEntry {
 	@Column (nullable = false)
 	private String foodName;
 	
-	@Column (nullable = false)
+	@Column 
 	private String dateEaten;
 
 	public Long getId() {
